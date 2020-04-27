@@ -26,6 +26,8 @@ namespace Full_GRASP_And_SOLID
             recipe.AddStep(new Step(GetProduct("Café"), 100, GetEquipment("Cafetera"), 120));
             recipe.AddStep(new Step(GetProduct("Leche"), 200, GetEquipment("Hervidor"), 60));
 
+            //Creo 2 objetos del tipo IPrinter uno de ellos es instancia de ConsolePrinter y el otro de FilePrinter
+
             IPrinter printer1 = new ConsolePrinter();
             IPrinter printer2 = new FilePrinter();
 
